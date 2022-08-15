@@ -1,0 +1,220 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Car Race Registeration form</title>
+   <style>
+    body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: pink;  
+}  
+.container {  
+    padding: 50px;  
+  background-color: lightblue;  
+}  
+.container input {  
+    width: 100%;  
+    padding: 12px 20px;  
+    margin: 8px 0;  
+    display: inline-block;  
+    border: 1px solid #ccc;  
+    box-sizing: border-box; 
+    border-radius: 8px; 
+    opacity: 0.7;
+}
+.container button {  
+    background-color: #4CAF50;  
+    color: white;  
+    padding: 14px 20px;  
+    margin: 8px 0;  
+    border: none;  
+    cursor: pointer;  
+    width: 100%;  
+}
+.container button:hover {  
+    opacity: 0.8;  
+    background-color: #45a049;
+    
+} 
+
+.form-group {  
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+   }
+   .form-group input {  
+    width: 100%;  
+    padding: 12px 20px;  
+    margin: 8px 0;  
+    display: inline-block;  
+    border: 1px solid #ccc;  
+    box-sizing: border-box; 
+    border-radius: 8px;
+   }
+   
+
+   </style>
+  </head>
+  <body>
+   <form style="padding: 20px; border-radius: 20px;">
+    <div class ="container" style = "background-image: URL(https://seeklogo.com/images/R/racing-car-logo-5E1EEFF2C6-seeklogo.com.png);background-repeat: no-repeat; background-position: center;">
+          <center> 
+      <h1 style = "color:red";>CAR RACE REGISTRATION FORM</h1>
+     </center>
+     <hr>
+      <p><b>
+        Location: Race ground Hinejwadi,Pune <br />Race Dates: || Sept 7 -Sept
+        14 2022 ||<br />Race Time:1:00pm-6:00pm <br>Please fill-up the form below to
+        register to the event:
+      </b>
+      <hr>
+      </p>
+      
+      <div>
+      <h2>DRIVER'S INFORMATION</h2>
+      <br>
+      <label> Driver's Name </label>
+      <input type="text" name="firstname" size="15" placeholder="First name" >
+      <input type="text" name="lastname" size="15" placeholder="Last name" >
+
+      <br >
+      <br >
+      <label> Date of Birth </label>
+      <input type="date" name="dob" size="15" placeholder="Date of Birth">
+      <br>
+      <br>
+      <label> Gender : </label><br />
+      <br>
+      <input type="radio" value="Male" name="gender" checked> Male
+      <input type="radio" value="Female" name="gender"> Female
+      <br>
+      <br>
+      <label> Phone No : </label>
+      <input
+        type="text"
+        name="country code"
+        placeholder="Country Code"
+        value="+91"
+        size="2"
+    >
+      <input type="text" name="phone" placeholder="Phone no." size="10"/
+      required>
+      <br>
+      <br>
+      <label> Email : </label>
+      <input type="email" name="email" placeholder="Email" size="30"/ required>
+      <br>
+      <br>
+      <label> Address : </label>
+      <br>
+      <textarea name="modification" rows="4" cols="50" placeholder="Address" / required></textarea>
+      <br>
+      <br>
+      <label> Country : </label>
+      <input type="text" name="country" placeholder="Country" /
+      required>
+      <label> State : </label>
+      <input type="text" name="state" placeholder="State" size="30"/ required>
+      <label> City : </label>
+      <input type="text" name="city" placeholder="City" / required>
+      <label> Zip Code : </label>
+      <input type="text" name="zip" placeholder="Zip Code" / required>
+      <br>
+      <br>
+      <label> Emergency Contact Name : </label>
+      <input type="text" name="emergency" placeholder="Name"
+      / required>
+      <br>
+      <br>
+      <label> Emergency Contact Phone No : </label>
+      <input type="text" name="emergency phone" placeholder="Phone No" / required>
+      <br>
+      <br>
+      <label> Emergency Contact Email : </label>
+      <input type="email" name="emergency email" placeholder="
+      Email" / required>
+      <br>
+      <br>
+      <label> Emergency Contact Relationship : </label>
+      <input type="text" name="emergency relationship" placeholder="Relationship" / required>
+      <br>
+      <br>
+     </div>
+     <hr>
+     <div>
+      <h2>CAR DETAILS</h2>
+      <br>
+      <label> Car Make : </label> 
+      <input type="text" name="car make" placeholder="Car Make" / required>
+      <br>
+      <br>
+      <label> Car Model : </label>
+      <input type="text" name="car model" placeholder="Car Model" / required>
+      <br>
+      <br>
+      <label>Car Color</label>
+      <select>
+       <option value="color">Choose color</option>
+      <option value="Red">Red</option>
+      <option value="Blue">Blue</option>
+      <option value="Green">Green</option>
+      <option value="Yellow">Yellow</option>
+      <option value="Black">Black</option>
+      <option value="White">White</option>
+      <option value="Pink">Pink</option>
+      <option value="Purple">Purple</option>
+      <option value="Orange">Orange</option>
+      <option value="Brown">Brown</option>
+      <option value="Grey">Grey</option>
+      <option value="Silver">Silver</option>
+      <option value="Gold">Gold</option>
+      <option value="Other">Other</option>
+      </select>
+     <br>
+     <br>
+     <label> Modification : </label>
+     <br>
+      <textarea name="modification" rows="4" cols="50" placeholder="Modification" / required></textarea>
+      <br>
+      <br>
+     <label>License Plate No: </label>
+     <input type="text" name="license" placeholder="License Plate No" / required>
+     <br>
+     <br>
+    </div>
+    <hr>
+    <div>
+     <h2>REGISTRATION PAYMENT</h2>
+     <br>
+     <label> Registration Fee : </label>
+     <br>
+     <h5>1 Day Partication:</h5>
+     <input type="radio" value="Rs.1000" name="regfee" checked /> Rs.1000
+     <br>
+     <h5>2 Days Partication:</h5>
+     <input type="radio" value="Rs.2000" name="regfee" /> Rs.2000
+     <br>
+     <h5>3 Days Partication:</h5>
+     <input type="radio" value="Rs.3000" name="regfee" /> Rs.3000
+     <br>
+     <br>
+     <h3>PAYMENT METHOD</h3>
+     
+     <input type="radio" value="Card" name="payment" checked /> Credit Card/Debit Card
+     <br>
+     <input type="radio" value="UPI" name="payment" /> UPI
+     <br>
+     <input type="radio" value="Other" name="payment" /> Other
+     <br>
+     <br>
+    </div>
+   </div>
+   <br>
+   <center>
+     <input type="submit" value="Submit">
+    </center>
+
+    </form>
+  </body>
+</html>
